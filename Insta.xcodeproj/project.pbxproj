@@ -19,6 +19,7 @@
 		C14981B9260BFDEA004A1CBC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14981B8260BFDEA004A1CBC /* LoginViewController.swift */; };
 		C14981C1260BFE06004A1CBC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14981C0260BFE06004A1CBC /* FeedViewController.swift */; };
 		C14981D1260C0FE7004A1CBC /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14981D0260C0FE7004A1CBC /* CameraViewController.swift */; };
+		C14981D6260C20A7004A1CBC /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14981D5260C20A7004A1CBC /* PostCell.swift */; };
 		EA0FF8B6BAC9CF734CAFCF9F /* Pods_InstaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B744AD2F1D7400EF64DB493A /* Pods_InstaTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		C14981B8260BFDEA004A1CBC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C14981C0260BFE06004A1CBC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		C14981D0260C0FE7004A1CBC /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C14981D5260C20A7004A1CBC /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		D128A370B4E7E7AA7D136D7D /* Pods-Insta-InstaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta-InstaUITests.release.xcconfig"; path = "Target Support Files/Pods-Insta-InstaUITests/Pods-Insta-InstaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F300230DDF107D13774A5166 /* Pods_Insta_InstaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta_InstaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -152,6 +154,7 @@
 				C14981B8260BFDEA004A1CBC /* LoginViewController.swift */,
 				C14981C0260BFE06004A1CBC /* FeedViewController.swift */,
 				C14981D0260C0FE7004A1CBC /* CameraViewController.swift */,
+				C14981D5260C20A7004A1CBC /* PostCell.swift */,
 			);
 			path = Insta;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				C149817B260BB39B004A1CBC /* AppDelegate.swift in Sources */,
 				C14981C1260BFE06004A1CBC /* FeedViewController.swift in Sources */,
 				C149817D260BB39B004A1CBC /* SceneDelegate.swift in Sources */,
+				C14981D6260C20A7004A1CBC /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
