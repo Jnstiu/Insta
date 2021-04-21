@@ -12,8 +12,8 @@ import Parse
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
         let parseConfig = ParseClientConfiguration {
                 $0.applicationId = "HoJ4pAXQEl4CWyz26BvdcL8Sujs2Akc9hrsAZa1L" // <- UPDATE
                 $0.clientKey = "cgLtXpKxHQi05nsKxirODS5QMnRIj2NyIJIbjnBh" // <- UPDATE
